@@ -181,6 +181,11 @@ a {
 
 /* articles styles */
 
+.hero-section__discription-title {
+    margin: 10px 0;
+    font-weight: 700;
+}
+
 .article-btn {
     width: 150px;
     height: 30px;
