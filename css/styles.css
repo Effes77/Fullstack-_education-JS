@@ -1,0 +1,244 @@
+/* Global styles */
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+	background: rgb(135, 127, 190);
+    color: black;
+    line-height: 130%;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+	min-width: 375px;
+	position: relative;
+}
+
+.content {
+    flex: 1
+}
+
+.container {
+	max-width: 1720px;
+	margin: 0 auto;
+	padding: 0 60px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.header {
+    background-color: blueviolet;
+    padding: 30px 0;
+    margin-bottom: 30px;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__list {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.footer {
+    background-color: blueviolet;
+    padding: 30px 60px;
+    width: 100%;
+}
+
+.footer__list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer .container {
+    display: flex;
+    gap: 20px;
+    flex-direction: column-reverse;
+}
+
+/* Index styles */
+
+.anchor {
+    width: 100px;
+    height: 100px;
+    display: block;
+    border: 2px solid black;
+    background-color: black;
+    margin: 0 auto;
+    align-content: center;
+    text-align: center;
+    color:  rgb(135, 127, 190);
+    border-radius: 50%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.title {
+    font-size: 32px;
+    margin: 30px 0;
+    font-weight: 700;
+}
+
+.hero-section__text p:not(p:first-child) {
+    margin-top: 15px;
+}
+
+.btn {
+    width: 150px;
+    height: 30px;
+    display: block;
+    border: 2px solid black;
+    background-color: black;
+    margin: 0 auto;
+    margin-top: 30px;
+    align-content: center;
+    text-align: center;
+    color:  rgb(135, 127, 190);
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.table__main  tr {
+    border: 2px solid black;
+}
+
+.table__main  th {
+    padding: 5px 15px;
+    text-align: center;
+    border: 2px solid black;
+    background-color: rgb(79, 137, 155);
+}
+
+.table__main  td {
+    padding: 0 5px;
+    text-align: center;
+    border: 2px solid black;
+    align-content: center;
+    background-color: white;
+}
+
+.form-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.form-section__list {
+    display: flex;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 30px;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 15px;
+}
+
+.form-section__name {
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    align-items: center;
+}
+
+.form-section__name input{
+    font-size: 20px;
+}
+
+.form-section__btn {
+    width: 150px;
+    height: 30px;
+    display: block;
+    border: 2px solid black;
+    background-color: black;
+    align-content: center;
+    text-align: center;
+    color:  rgb(135, 127, 190);
+    cursor: pointer;
+    font-size: 18px;
+}
+
+/* about styles */
+
+
+/* articles styles */
+
+.article-btn {
+    width: 150px;
+    height: 30px;
+    display: block;
+    border: 2px solid black;
+    background-color: black;
+    align-content: center;
+    text-align: center;
+    color:  rgb(135, 127, 190);
+    cursor: pointer;
+    font-size: 18px;
+}
+
+/* gallery styles */
+.gallery__text {
+    color: black;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.gallery__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.gallery__card {
+    border: 2px solid black;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    width: 30%;
+    text-align: center;
+    padding: 10px;
+}
+
+.gallery__img {
+    width: 400px;
+    height: 500px;
+}
+
+/* contacts section */
+
+.contacts__text {
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.contacts__list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contacts__information {
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+}

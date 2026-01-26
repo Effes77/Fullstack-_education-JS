@@ -1,0 +1,12 @@
+<svg id="cat_logo" width="140" height="120" viewBox="0 0 140 120" xmlns="http://www.w3.org/2000/svg">
+    <polygon points="30,20 60,0 70,35" fill="#f59e0b" />
+    <polygon points="90,35 100,0 130,20" fill="#f59e0b" />
+    <circle cx="80" cy="75" r="45" fill="#f59e0b" />
+    <circle cx="65" cy="75" r="6" fill="#0f172a" />
+    <circle cx="95" cy="75" r="6" fill="#0f172a" />
+    <polygon points="80,88 74,98 86,98" fill="#0f172a" />
+    <line x1="20" y1="80" x2="55" y2="85" stroke="#0f172a" stroke-width="3" />
+    <line x1="20" y1="95" x2="55" y2="95" stroke="#0f172a" stroke-width="3" />
+    <line x1="105" y1="85" x2="140" y2="80" stroke="#0f172a" stroke-width="3" />
+    <line x1="105" y1="95" x2="140" y2="95" stroke="#0f172a" stroke-width="3" />
+</svg>
