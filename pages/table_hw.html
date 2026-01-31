@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Table-homework</title>
     <link rel="stylesheet" href="../css/reset.css" />
     <link rel="stylesheet" href="../css/styles.css" />
   </head>
@@ -11,7 +11,7 @@
     <div class="wrapper">
       <header class="header">
         <div class="container">
-          <a class="header__logo" href="../index.html"
+          <a class="header__logo" href="./index.html"
             ><img src="../images/icons/icons.svg" alt="Site logo"
           /></a>
           <nav>
@@ -26,12 +26,43 @@
         </div>
       </header>
       <main class="content">
-        <section class="hero-section-about container">
-          <h1 class="title">My homework-2 <em>about</em> page</h1>
-          <p>
-            The site was created by Alexander for the second homework assignment
-            for the Fullstack JS course.
-          </p>
+        <section class="table-container">
+          <table class="table-hw">
+            <tr>
+              <td colspan="2"></td>
+              <td colspan="3"></td>
+              <td colspan="2" class="yellow"></td>
+              <td rowspan="4"></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td colspan="4" rowspan="2" class="red"></td>
+              <td colspan="2" class="yellow"></td>
+            </tr>
+            <tr>
+              <td rowspan="2"></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td rowspan="2" class="black"></td>
+              <td colspan="2"></td>
+              <td colspan="3"></td>
+            </tr>
+            <tr>
+              <td rowspan="3" class="yellow"></td>
+              <td colspan="2"></td>
+              <td colspan="3" rowspan="2" class="blue"></td>
+              <td rowspan="3" class="red"></td>
+            </tr>
+            <tr>
+              <td rowspan="2"></td>
+              <td class="black"></td>
+            </tr>
+            <tr>
+              <td colspan="5"></td>
+            </tr>
+          </table>
         </section>
       </main>
       <footer id="footer" class="footer">
