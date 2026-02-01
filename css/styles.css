@@ -261,11 +261,13 @@ a {
     background: white;
     border: 10px solid black;
     width: 100%;
+    border-collapse: collapse;
+    width: 600px;
+    height: 600px;
+    table-layout: fixed;
 }
 
-.table-hw tr {
-    height: 50px;
-}
+
 
 .table-hw td {
     border: 10px solid black;
