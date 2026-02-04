@@ -267,8 +267,6 @@ a {
     table-layout: fixed;
 }
 
-
-
 .table-hw td {
     border: 10px solid black;
     text-align: center;
@@ -291,5 +289,15 @@ a {
     background: black;
 }
 
+/* hw_7 styles */
 
+.link-list {
+    font-weight: 700;
+}
 
+.link-style {
+    font-size: 16px;
+    font-weight: 400;
+    vertical-align: top;
+    color: greenyellow;
+}
