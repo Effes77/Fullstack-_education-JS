@@ -1,0 +1,113 @@
+/* CSS properties styles */
+
+.block-list {
+    background: tomato;
+    display: block;
+    width: 1200px;
+    box-sizing: content-box;
+    padding: 50px;
+}
+
+.inlineblock-list {
+    background: violet;
+    display: inline-block;
+}
+
+.flex-list {
+    background: yellowgreen;
+    display: flex;
+    justify-content: center;
+}
+
+/* Float styles */
+
+.box {
+    border: 2px solid red;
+}
+
+.float-img {
+    float: right;
+    width: 200px;
+    height: 200px;
+    border: 2px solid red;
+}
+
+.float-clear-text {
+    float: left;
+    border: 2px solid green;
+}
+
+.clearfix {
+  border: 2px solid red;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Overflow page */
+
+.no-overflow {
+    border: 2px solid red;
+    background-color: violet;
+    width: 500px;
+    height: 250px;
+    margin-bottom: 100px;
+}
+
+.with-overflow {
+    border: 2px solid red;
+    background-color: violet;
+    width: 500px;
+    height: 250px;
+    overflow: auto;
+}
+
+/* Position page */
+
+.container {
+    max-width: 1720px;
+	margin: 0 auto;
+	padding: 0 60px;
+}
+
+.static {
+    position: static;
+    border: 2px solid red;
+}
+
+.relative {
+    position: relative;
+    border: 2px solid green;
+    align-items: center;
+    width: 500px;
+}
+.img {
+    width: 500px;
+}
+
+.absolute {
+    position: absolute;
+    border: 2px solid blue;
+    width: 500px;
+    top: 50px;
+}
+
+.fixed {
+    position: fixed;
+    border: 2px solid violet;
+    background-color: blanchedalmond;
+    top: 0;
+    right: 0;
+    margin: 0;
+    width: 1200px;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+    border: 2px solid turquoise;
+    background-color: aquamarine;
+}
