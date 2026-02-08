@@ -198,6 +198,7 @@ a {
     color:  rgb(135, 127, 190);
     cursor: pointer;
     font-size: 18px;
+    margin-bottom: 50px;
 }
 
 /* gallery styles */
@@ -300,4 +301,122 @@ a {
     font-weight: 400;
     vertical-align: top;
     color: greenyellow;
+}
+
+/* hw_8 styles */
+
+.hero-section > div {
+    margin: 20px 0 20px 0;
+}
+
+.hero-section div div {
+    background-color: thistle;
+    border: 1px solid black;
+}
+
+.first-line {
+    background-color: blueviolet;
+    border: 2px solid black;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.first-line__box {
+    width: 200px;
+    height: 75px;
+}
+
+.second-line {
+    background-color: rgb(42, 115, 136);
+    border: 2px solid black;
+    display: grid;
+    padding: 10px 20px;
+    grid-template-columns: 200px 1fr repeat(3, 200px);
+    grid-template-rows: 75px ;
+    grid-auto-flow: row;
+    gap: 0 22px;
+}
+
+.second-line__item-a {
+  grid-column: 1;
+}
+.second-line__item-b {
+  grid-column: 3;
+}
+.second-line__item-c {
+  grid-column: 4;
+}
+.second-line__item-d {
+  grid-column: 5;
+}
+
+.third-line {
+    background-color: rgb(147, 52, 158);
+    border: 2px solid black;
+    display: grid;
+    padding: 10px 20px;
+    grid-template-columns: repeat(2, 200px) 1fr repeat(2, 200px);
+    grid-template-rows: 75px ;
+    grid-auto-flow: row;
+    gap: 0 22px;
+}
+
+.third-line__item-a {
+  grid-column: 1;
+}
+.third-line__item-b {
+  grid-column: 2;
+}
+.third-line__item-c {
+  grid-column: 4;
+}
+.third-line__item-d {
+  grid-column: 5;
+}
+
+.fourth-line {
+    background-color: rgb(146, 102, 44);
+    border: 2px solid black;
+    display: grid;
+    padding: 10px 20px;
+    grid-template-columns: 2fr repeat(3, 200px);
+    grid-template-rows: 75px 75px;
+    gap: 22px;
+}
+
+.fourth-line__item-a {
+    grid-column: 3;
+    grid-row: span 2;
+}
+.fourth-line__item-b {
+    grid-column: 4;
+    grid-row: 1;
+}
+.fourth-line__item-c {
+    grid-column: 4;
+    grid-row: 2;
+}
+
+.fifth-line {
+    background-color: rgb(166, 32, 88);
+    border: 2px solid black;
+    display: grid;
+    padding: 10px 20px;
+    grid-template-columns: 2fr repeat(3, 200px) 1fr;
+    grid-template-rows: 75px 75px;
+    gap: 22px;
+}
+
+.fifth-line__item-a {
+    grid-column: 2;
+    grid-row: span 2;
+}
+.fifth-line__item-b {
+    grid-column: 3;
+    grid-row: 1;
+}
+.fifth-line__item-c {
+    grid-column: 3;
+    grid-row: 2;
 }
